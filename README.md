@@ -1,16 +1,28 @@
-# React + Vite
+# 🍔 Food App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based food listing application where users can browse and filter food items by category.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Display food items in card layout
+* Filter food by category (breakfast, soups, pizza, etc.)
+* Responsive UI using Tailwind CSS
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Vite
+* Tailwind CSS
 
-## Expanding the ESLint configuration
+## 📌 How it works
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Food data is stored in a static file
+* useState is used to manage filtered data
+* Category component triggers filtering
+* Card component renders each food item
+
+## 🔮 Future Improvements
+
+* Search functionality
+* Add to cart feature
+* Dynamic data from API
