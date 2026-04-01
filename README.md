@@ -1,28 +1,44 @@
 # 🍔 Food App
 
-A React-based food listing application where users can browse and filter food items by category.
+A modern food ordering web application built using React and Tailwind CSS. Users can browse food items, filter by category, add items to cart, and complete a checkout flow with OTP verification (mock).
 
-## 🚀 Features
+---
 
-* Display food items in card layout
-* Filter food by category (breakfast, soups, pizza, etc.)
-* Responsive UI using Tailwind CSS
+## 🚀 Live Demo
 
-## 🛠 Tech Stack
+👉 https://food-app-amber-seven.vercel.app
 
-* React
-* Vite
-* Tailwind CSS
+---
 
-## 📌 How it works
+## 📌 Features
 
-* Food data is stored in a static file
-* useState is used to manage filtered data
-* Category component triggers filtering
-* Card component renders each food item
+- 🛒 Add to cart functionality  
+- ➕➖ Increase / decrease item quantity  
+- 📂 Category-based filtering  
+- 🔍 Search functionality (UI ready)  
+- 💳 Checkout flow with OTP verification (mock)  
+- 🎨 Clean and responsive UI  
 
-## 🔮 Future Improvements
+---
 
-* Search functionality
-* Add to cart feature
-* Dynamic data from API
+## 🧠 Project Flow
+
+1. Browse food items  
+2. Filter by category  
+3. Add items to cart  
+4. Update quantity  
+5. Go to cart  
+6. Checkout with OTP verification  
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js  
+- Vite  
+- Tailwind CSS  
+- JavaScript  
+
+---
+
+## 📂 Folder Structure
